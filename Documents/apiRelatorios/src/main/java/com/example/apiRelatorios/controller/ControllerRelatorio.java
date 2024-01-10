@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api")
 @CrossOrigin("*")
 
-public class ControllerRelatorio {
+public class ControllerRelatorio  {
 
     @Autowired
     private RelatorioInspecaoService relatorioInspecaoService;
